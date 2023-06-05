@@ -46,7 +46,7 @@ async function main() {
     {
       // This assumes your metamask account has at least 1 ETH in its account
       // Change this value as you want
-      value: ethers.utils.parseEther("1"),
+      value: ethers.utils.parseEther("0.08"),
     }
   );
   await cryptoDevsDAO.deployed();
